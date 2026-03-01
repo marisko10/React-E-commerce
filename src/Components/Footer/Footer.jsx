@@ -1,5 +1,6 @@
 import './Footer.css';
 import { Link } from 'react-router-dom';
+import logo from "../../Images/icone-simples-de-smartphone-preto-e-branco_1292509-15137(1).jpg";
 
 
 function Footer() {
@@ -10,7 +11,7 @@ function Footer() {
         <footer className='footer'>
             <div className='div1'>
                 <div className='logotechmobile'>
-                   <img src="src/Images/icone-simples-de-smartphone-preto-e-branco_1292509-15137(1).jpg" alt="logo" className="logo" width={24} />
+                   <img src={logo} alt="logo" className="logo" width={24} />
                    <h4>TechMobile</h4>
                 </div>
                 <p className="techmobilep">Redefinindo o futuro da comunicação móvel 
