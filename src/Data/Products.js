@@ -1,5 +1,5 @@
 import phoneblack from "../Images/phone-black.png";  
-import phonesilver from "../images/phone-silver.png";
+import phonesilver from "../Images/phone-silver.png";
 
 const Products = [
     {
