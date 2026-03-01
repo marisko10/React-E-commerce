@@ -1,0 +1,81 @@
+.header {
+height: 55px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+background-color: rgba(6, 5, 5, 0.3);
+position: fixed;   
+top: 0;             
+left: 0;   
+z-index: 1000;   
+width: 100%;  
+padding: 0 10px;
+
+}
+
+.headerlogo {
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 20px;
+}
+
+.headerTitle {
+color: white;
+}
+
+.headerNav {
+display: flex;
+flex-direction: row;
+gap: 28px;
+margin-right: 80px;
+}
+
+.headerNav a {
+color: rgb(121, 119, 119);
+text-decoration: none;
+font-weight: 700;
+font-size: 18px;
+}
+.headerNav a:hover {
+    cursor: pointer;
+    transition: color 0.8s ease, transform 0.8s ease;
+    transform: translateY(5px) scale(1.1);
+    color: #1181f1;
+}
+
+.iconecar:hover {
+    transform:scale(1.1);
+    transition: transform 0.8s ease-in-out;
+    cursor: pointer;
+}
+
+.cart-icon-container {
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 5px;
+}
+
+.quantity {
+    position: absolute;
+    right: 12px;
+    color: rgb(17, 11, 90);
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+@media (max-width: 700px) {
+    
+
+    .headerTitle {
+        display: none;
+    }
+
+    .headerNav {
+        display: flex;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,93 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 30px;
+
+   } 
+   .card-left, .card-right {
+    width: 50%;
+    padding: 0 20px;
+   
+   }
+   .card img {
+    border-radius: 20px;
+    box-shadow: 0 0 90px rgba(17, 129, 241, 0.4); 
+   }
+   .card-right-content {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 30px 20px;
+}  
+
+   .atribute{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin: 30px 0 0 20px;
+    border-top: 1px solid rgb(51, 50, 50);
+    border-bottom: 1px solid rgb(51, 50, 50);
+    padding: 40px 0;
+   }
+
+   .phonename{
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+   }
+    .phone-price{
+     font-size: 40px;
+     font-weight: 600;
+     color: white;
+    }
+    .phone-description{
+     font-size: 18px;
+     font-weight: 400;
+     }
+     .atribute-title{
+        color: rgb(106, 103, 103);
+      }
+     .atribute-description{
+        font-size: 18px;
+        font-weight: 500;
+        color: white;
+     }
+
+.buy-button {
+    background-color: rgb(17, 129, 241);
+    display: flex;
+    margin: 25px auto;
+    color: white;
+    font-size: 16px;
+    font-weight: 550;
+    padding: 15px 90px;
+    border: none;
+    border-radius: 10px;
+}
+
+.buy-button:hover {
+    background-color: rgb(17, 129, 241, 0.8);
+    cursor: pointer;
+}
+
+@media (max-width : 1400px) {
+    .card {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+ 
+    
+    .card-right {
+        margin: 20px 0;
+        width: 100%;
+        
+    }
+
+    .phone{
+        width: 100%;
+    }
+}
