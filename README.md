@@ -2,7 +2,7 @@
 
 Aplicação de e-commerce desenvolvida com React, focada na gestão de estado global, navegação entre páginas e boas práticas de desenvolvimento front-end moderno.
 
-Este projeto simula uma loja online com listagem de produtos, página de detalhes e carrinho de compras dinâmico.
+Este projeto simula uma loja online com listagem de produtos,página de detalhes e carrinho de compras dinâmico.
 
 ---
 
